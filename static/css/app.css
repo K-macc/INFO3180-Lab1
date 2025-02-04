@@ -8,7 +8,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: red;
+  color: white;
   -webkit-text-stroke: 0.5px black;
 }
 
@@ -21,7 +21,7 @@ h1{
   font-family: 'Times New Roman', Times, serif;
   font-size: 60px;
   font-style: initial;
-  color: blue;
+  color: white;
   -webkit-text-stroke: 2px black;
 }
 
