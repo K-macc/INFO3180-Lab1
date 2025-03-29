@@ -5,9 +5,13 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
         <title>My Website - About</title> 
     </head> 
-    <body> 
-        <h1>Keshawn McGrath</h1> 
-        <img src="{{ url_for('static', filename='images/pic.jpeg') }}" alt="Just a picture" /> 
-        <p>Keshawn McGrath is a 22-year-old Computer Science major in his third year of study. Hailing from the vibrant city of Montego Bay, he is a proud alumnus of Cornwall College. Currently serving as the Hall Chairman of Taylor Hall, Keshawn demonstrates strong leadership skills alongside his academic pursuits, embodying a balance of dedication both in and out of the classroom.</p> 
+    <body>
+        <div class="container">
+            <img src="{{ url_for('static', filename='images/keshawn.jpg') }}" alt="Just a picture" /> 
+            <div class="text-container">
+                <h1>About Keshawn McGrath</h1> 
+                <p>I am a 22-year-old Computer Science major in his third year of study. Hailing from the vibrant city of Montego Bay, I am a proud alumnus of Cornwall College. Currently serving as the Hall Chairman of Taylor Hall and the incoming Vice-President of Properties and Special Initiatives for the guild, I demonstrate strong leadership skills alongside my academic pursuits, embodying a balance of dedication both in and out of the classroom. I am also usually an outgoing persons, whose hobbies surround mainly playing volleyball.</p> 
+            </div>
+        </div>
     </body> 
 </html> 
